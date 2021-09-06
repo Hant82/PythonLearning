@@ -1,0 +1,38 @@
+ul{
+    display: flex;
+    list-style: none;
+    
+   }
+   li{
+   margin: 15px;    
+   }
+   a{
+       text-decoration: none;
+       color:purple;
+       font-size: large;
+      
+    
+   }
+   h1{
+   text-align: center;   
+   }
+   .ghichuanh{
+    text-align: center; 
+    color:brown;  
+   }
+   p{
+       font-size: large;
+       text-align: justify;
+   }
+   .body
+   {
+    background-color: coral;
+   }
+   #trang
+   {
+       text-transform: uppercase;
+       color: darkblue;
+
+   }
+
+   
