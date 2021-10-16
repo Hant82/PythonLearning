@@ -43,19 +43,19 @@ for i_kytu in y_string:
 print (i_dem)
 #Bài 3:
 #Viết chương trình in ra thời gian đếm ngược đến XMas 2021 sau mỗi khoảng thời gian nhất định.
-from datetime import date
-from datetime import time
-from datetime import datetime
-import time
+#from datetime import date
+#from datetime import time
+#from datetime import datetime
+#import time
 
-t_ngay=datetime.fromisoformat("2021-12-25")
-t_today=datetime.today()
-while t_today < t_ngay:
-    t_dem_nguoc= t_ngay- t_today
-    print("Còn", t_dem_nguoc, "sẽ đến Noel")
-    time.sleep(5)
-else:
-  print("Noel đến rồi")
+#t_ngay=datetime.fromisoformat("2021-12-25")
+#t_today=datetime.today()
+#while t_today < t_ngay:
+#   t_dem_nguoc= t_ngay- t_today
+#    print("Còn", t_dem_nguoc, "sẽ đến Noel")
+#    time.sleep(5)
+#else:
+#  print("Noel đến rồi")
 # Bài 1
 #Hãy viết chương trình in ra các hình sau (dùng ký tự '*' #và ký tự space) với n là số dòng. Vd: n i= 4:
 m=4
@@ -189,12 +189,15 @@ for i_dict in range (0, len(my_dict)):
     g= d_string
   
 print ("Các giá trị trong Dict là", g)
-d_dem =[]
-g_dem=[]
-for i_kytu in g:
- if i_kytu in d_dem:
-   c_dem=[]
- else:
-    d_dem.append (i_kytu)
-    g_dem=d_dem
-print ("Các giá trị duy nhất trong Dict là:",g_dem)
+#d_dem =[]
+#g_dem=[]
+#set_1={}
+#for i_kytu in g:
+ #if i_kytu in d_dem:
+  # c_dem=[]
+ #else:
+  #  d_dem.append (i_kytu)
+  #  g_dem=d_dem
+set_1= set(g)
+
+print ("Các giá trị duy nhất trong Dict là:",set_1)
