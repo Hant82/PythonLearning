@@ -17,6 +17,7 @@ def main():  # khó
             except:
                 
                 print ("Bạn phải nhập số")
+                
     dem=db.get_thutulanchoi()
     if dem is None:
         dem=0
