@@ -10,7 +10,7 @@ from docx.shared import Inches
 config = {
   'host': 'localhost',
   'user': 'root',
-  'password': '1234335',
+  'password': '123433567',
   'database': 'blog_ha',
   }
 cnx = connect(**config)
@@ -83,6 +83,17 @@ def get_letter():
     #     r2=i[2]
     return render_template("letter.html")
 
+  
+  @app.route("/letter")
+def get_letter111222():
+    # cur = cnx.cursor()
+    # sql="SELECT * from bai_viet where id="+str(id)
+    # cur.execute(sql)
+    # for i in cur:
+    #     r0=i[0]
+    #     r1=i[1]
+    #     r2=i[2]
+    return render_template("letter.html")
 
 @app.route("/letter", methods=["POST"])
 # Hàm homepage() chạy khi đường dẫn khớp với route /
