@@ -28,7 +28,7 @@ def roman_to_int(s):
     print (num)
     return(num)
 #Chạy hàm
-roman_to_int ("XIIIVIIIXL") 
+roman_to_int ("IV") 
 #1. i+1<s và XI không thuộc roman
 #2 Nhảy đến else num=X=10 tăng i lên 1
 #3 Tiếp tục chạy vòng while: đọc được II không tồn tại trong roman --> đến bước else num=10+1=11, tăng i lên 1 vị trí
