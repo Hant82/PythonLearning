@@ -10,7 +10,7 @@ from docx.shared import Inches
 config = {
   'host': 'localhost',
   'user': 'root',
-  'password': '',
+  'password': '1234335',
   'database': 'blog_ha',
   }
 cnx = connect(**config)
